@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Danh Mục Sản Phẩm</title>
+</head>
+<body>
+	<header>
+		<h1>TOP</h1>
+	</header>
+	<section class="admin-content">
+		<div class="admin-content-left">
+			<ul>
+				<li><a href="#">Danh mục</a>
+					<ul>
+					<li><a href="">Thêm Danh Mục</a></li>
+					<li><a href="">Danh Sách Danh Mục</a></li>
+				</ul>
+				</li>
+
+				<li><a href="#">Loại Sản Phẩm</a>
+					<ul>
+					<li><a href="">Thêm Loại Sản Phẩm</a></li>
+					<li><a href="">Danh Sách Loại Sản Phẩm</a></li>
+				</ul>
+				</li>
+
+				<li><a href="#">Sản phẩm</a>
+					<ul>
+					<li><a href="">Thêm Sản Phẩm</a></li>
+					<li><a href="">Danh Sách Sản Phẩm</a></li>
+				</ul>
+				</li>
+			</ul>
+		</div>
+		<style>
+		select{
+		width: 200px;
+		height: 30px;
+		margin: 20px;
+		}
+		input{
+		width: 200px;
+		height: 30px;
+		margin: 20px;	
+		}
+		textarea{
+		margin: 20px;
+		}
+		</style>
+		<div class="admin-content-right">
+			<div class="admin-content-right-product_add">
+				<h1>Thêm Sản Phẩm</h1>
+				<form action="" method="post"><br>
+					<select name="" id="">
+						<option value="#">-- CHỌN DANH MỤC ---</option>
+					</select>
+					<select name="" id="">
+						<option value="#">-- CHỌN LOẠI SẢN PHẨM ---</option>
+					</select><br>
+					<label for=""> <span style="margin: 20px;">TÊN SẢN PHẨM </span> <span style="color: red;">*</span></label><br>
+					<input type="text"><br>
+					<label for=""> <span style="margin: 20px;">GIÁ SẢN PHẨM </span> <span style="color: red;">*</span></label><br>
+					<input type="text"><br>
+					<label for=""> <span style="margin: 20px;">TỒN KHO </span> <span style="color: red;">*</span></label><br>
+					<input type="text"><br>
+					<label for=""> <span style="margin: 20px;">ĐÃ BÁN </span> <span style="color: red;">*</span></label><br>
+					<input type="text"><br>
+					<label for=""> <span style="margin: 20px;">MÔ TẢ SẢN PHẨM </span> <span style="color: red;">*</span></label><br>
+					<textarea name="" id="" cols="60" rows="10" ></textarea><br>
+					<label for=""> <span style="margin: 20px;">CHỌN ẢNH CHÍNH </span> <span style="color: red;">*</span></label><br>
+					<input type="file"><br>
+					<label for=""> <span style="margin: 20px;">CHỌN ẢNH PHỤ</span> <span style="color: red;">*</span></label><br>
+					<input type="file"><br>
+					<button type="submit" style="
+					height: 30px;
+					width: 100px;
+					margin: 20px;
+					cursor: pointer;
+					background-color: powderblue;
+					border: gray;
+					transition: all 0.3s ease;
+					">THÊM</button>
+				</form>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
